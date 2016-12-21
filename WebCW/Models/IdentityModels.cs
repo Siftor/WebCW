@@ -25,6 +25,8 @@ namespace WebCW.Models
         {
         }
 
+        public DbSet<Ann> Announcements { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
